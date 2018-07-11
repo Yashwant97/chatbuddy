@@ -1,0 +1,36 @@
+.jumbotron{
+    font-size:12px;
+    background: rgba(0,0,0,0.3);
+}
+.text-size{
+    font-size: 4px;
+}
+.background{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(bg2.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+.content-page{
+    height: 100%;
+    padding-top: 3%;
+}
+.contacts{
+    background-color: rgba(0,0,0,0.6);
+    
+}
+.message_pane{
+    border-left: 2px;
+    border-left-color: #000000;
+    border-left-width: 2px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+.table{
+    text-decoration: none;
+}

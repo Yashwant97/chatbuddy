@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Chat Buddy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js" ></script>
+    </head>
+    <body>
+        <div class="container-fluid background">
+        <div class="container ">
+            <br>
+        <div class="row row-style">
+        <div class="col-sm-5 col-sm-offset-3">
+        
+            <div class="jumbotron">
+                <br>
+                <br>
+            <form method="POST" action="login">
+                
+                <input type="text" name="Login_id" class="form-group form-control" placeholder="Login ID"> 
+                
+                <input type="password" name="password" class="form-group form-control" placeholder="Password"> 
+                <br>
+                <input type="submit" value="Log IN" class="btn-group btn btn-primary">
+                
+                <br></form>
+          <!---
+          
+          
+          
+          
+          
+          
+          Sign Up Model-->
+                <center> <p class="text-size">Don't have a account?<a data-toggle="modal" data-target="#myModal">Sign up</a></p></center>
+                <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="m1">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title text-info"> Sign Up Form</h1>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+          <form class="form-text" action="signup" method="Post">
+        <div class="modal-body">
+           
+                       
+            
+                            <input type="text" name="Name" class="form-group form-control" placeholder="Chat Name"> 
+                            <input type="text" name="Email" class="form-group form-control" placeholder="Email"> 
+                            <input type="password" name="Password"class="form-group form-control" placeholder="Password">
+                            <select name="Gender" class="form-group form-control">
+                                <option>Select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                
+                            </select>
+                            <input type="text" name="Number" class="form-group form-control" placeholder="Mobile Number">
+                            <br>
+             
+                    
+        </div>
+        <div class="modal-footer">
+            <input type="submit" value="Sign Up" class="btn-group btn btn-primary">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div></form>
+      </div>
+      
+    </div>
+    </div>
+  </div>
+                
+            
+        </div>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+        
+    </body>
+</html>
